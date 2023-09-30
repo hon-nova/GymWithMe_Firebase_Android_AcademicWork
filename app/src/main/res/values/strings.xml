@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">GymWithMe</string>
+    <string name="txtViewGoogleSignIn">Or Sign In With Google</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">MAIN_ACTIVITY HERE</string>
+    <string name="useremail">useremail</string>
+    <string name="txtGoogle">Or Sign in With Google</string>
+    <string name="signupUsernameHint">Username</string>
+    <string name="signupEmailHint">Email</string>
+    <string name="signupPasswordHint">Password</string>
+    <string name="signupConfirmPasswordHint">Confirm Password</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnLogin">Login</string>
+    <string name="txtViewUserDisplay">User List</string>
+    <string name="default_web_client_id">623120979897-4tgcdcg6tm71p5d94ep7oddc7om0g31e.apps.googleusercontent.com</string>
+    <string name="txtViewHealth" />
+
+    //BMI
+    <string name="key_value">58b02c42c2mshcdcdb63451ddf85p1cb089jsn6fc8ed02b302</string>
+    <string name="host_value">fitness-calculator.p.rapidapi.com</string>
+    <string name="rapidapi_key_name">X-RapidAPI-Key</string>
+    <string name="rapidapi_host_name">X-RapidAPI-Host</string>
+
+    <string name="txtViewAge">Age</string>
+    <string name="editTxtAgeHint">(max 80)</string>
+    <string name="editTxtAge"></string>
+    <string name="showMeActivity">Go Set A Goal!</string>
+
+
+    <string name="txtViewWeight">Weight:</string>
+    <string name="editTxtWeightHint">(in kilogram - max 160)</string>
+    <string name="editTxtWeight"></string>
+
+
+    <string name="txtViewHeight">Height</string>
+    <string name="editTxtHeight"></string>
+    <string name="editTxtHeightHint">(in centimeter)</string>
+    <string name="calculator">BMI Calculator</string>
+
+
+    <string name="txtViewResult">Your BMI Result: </string>
+    <string name="txtViewBmiR">Your BMI:  </string>
+    <string name="txtViewHealthR">Health:</string>
+    <string name="txtViewBmiRange">BMI Range:</string>
+    <string name="txtViewStat" />
+
+    <string name="txtViewBMIS">BMI</string>
+    <string name="txtViewBMIResult">Weight Status</string>
+    <string name="txtViewBelow">Below 18.5</string>
+    <string name="txtViewBelowResult">Underweight</string>
+    <string name="txtViewHealthWeight">https://www.cdc.gov/</string>
+
+    <string name="txtViewHealthy">18.5 – 24.9</string>
+    <string name="txtViewHealthyResult">Healthy Weight</string>
+
+    <string name="txtViewOverweigh">25.0 – 29.9</string>
+    <string name="txtViewOverweightResult">Overweight</string>
+
+    <string name="txtViewAbove">30.0 and Above</string>
+    <string name="txtViewAboveResult">Obesity</string>
+
+    <string name="btnAddCreditCard">Add Credit Card</string>
+    <string name="cardNumberHint">1234 1234 1234 1234</string>
+    <string name="monthExpiredHint">MM</string>
+    <string name="yearExpiredHint">YY</string>
+    <string name="btnPay">Pay with Stripe</string>
+    <string name="cardHolderHint">Cardholder Name</string>
+    <string name="txtViewSaveActivity">To save your activities, please subscribe.</string>
+    <string name="txtViewSetAGoal">Set A Goal</string>
+    <string name="sha1">64:41:C3:6E:3D:B6:E3:60:6C:75:F0:66:8E:FA:67:B7:4B:DA:E4:C1</string>
+
+    <string name="stripe_public_key">pk_test_51NJYdrA8hitTZ8gp9nhQgSPKIGpt2SekyIlLm3R5q5tFYzQYhj1tSfe10vbiiu1AhTMKFUWYTNgvBrPtX6KIA1eD00o9KBmRqC</string>
+    <string name="stripe_secret_key">sk_test_51NJYdrA8hitTZ8gphViHkY15YjFfvEwhQXXlnRt36AxDUjiXDC2me9tHYZumwR34Bj0j5ho6rjn39MF7XOxXrGJS009pe2hhWs</string>
+    <string name="stripe_backup_code">kwrt-yvog-ehef-aliy-zlmy</string>
+
+    //HomeFragment
+    <string name="txtViewKnowBMI">Know Your BMI (Body Mass Index)</string>
+    <string name="txtViewStartSession">Start Workout Session</string>
+
+    //FilterFragment
+
+    <string name="anyWeight">weight (default 0)</string>
+    <string name="editTxtSearchActivityHint">name (s, walking, dog, water)</string>
+    <string name="editTxtDurationHint">duration (in minute - default 0)</string>
+
+
+    //FitnessFragment
+
+    <string name="btnShowActivity">Show Activity</string>
+    <string name="btnShowFitness">Search</string>
+    <string name="forYourInfo">According to your current BMI,you might consider losing estimatedly: </string>
+    <string name="fitnessPreference">Set A Goal</string>
+
+    //CardFitnessFragment
+    <string name="txtViewSave">Would you want to save this activity into your profile? You can only save one. If this isn\'t your choice, please select an activity that best fits your fitness journey.</string>
+    <string name="btnSaveAndSubscribe">Start Workout Session ?</string>
+
+    //stripePaymment
+
+    //UserWorkoutSessionFragment
+    <string name="btnContinue">Continue</string>
+    <string name="txtViewSubscribeReminder">Please subscribe to save your work</string>
+    <string name="txtViewResetBMI">Reset BMI</string>
+    <string name="txtViewResetBMIMsg">This goal is already achieved. Please reset your BMI and follow further instructions."</string>
+
+    //ProfilFragment
+    <string name="btnViewProgressBar">View Your Progress</string>
+    <string name="txtViewBackToHome">Back to Home</string>
+
+
+    //admin
+    <string name="hello_admin_fragment">I AM ADMIN</string>
+    <string name="tabView">Tab View</string>
+    <string name="tabInfo">Tab Info</string>
+    <string name="txtViewLogout">LOG OUT</string>
+    <string name="support">Should you need technical support, contact us at tech@support.gymwithme.ca" </string>
+
+    //Notifications
+    <string name="notifications"></string>
+
+    //InfoFragment
+    <string name="point1">Privacy and Data Protection:</string>
+    <string name="point11">At GymWithMe, we respect our customers\' privacy and comply with all relevant government regulations. Your private information
+        will be treated as strictly confidential, and we will not share any client\'s information with unauthorized parties</string>
+    <string name="point2">Unsubscribe from Service:</string>
+    <string name="point22">If you no longer wish to use our services, please call 604-555-5555 to unsubscribe.
+        Once your request is documented and confirmed, we will proceed to unsubscribe you, and you will receive a notification confirming your removal from our services.</string>
+    <string name="point3">Account Deletion:</string>
+    <string name="point33">If you desire to permanently delete your account, please contact our support team at administration@support.gymwithme.ca,
+        and we will take necessary steps to delete your account and associated data.</string>
+
+</resources>

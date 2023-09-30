@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.PlaygroundActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="20dp"
+        android:id="@+id/frame_in_playground1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/fitnessPreference"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:hint="@string/anyWeight"
+            android:id="@+id/editTxtSearchWeight"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTxtSearchName"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:hint="@string/editTxtSearchActivityHint"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTxtSearchDuration"
+            android:inputType="number"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:hint="@string/editTxtDurationHint"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnShowFitness"
+            android:layout_gravity="right"
+            android:id="@+id/btnSendToFitnessFilter"
+
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:id="@+id/txtViewForViewingOnly"
+        android:text="For Viewing Only"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_in_playground2"/>
+
+
+</LinearLayout>
