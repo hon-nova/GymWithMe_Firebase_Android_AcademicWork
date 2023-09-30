@@ -141,6 +141,8 @@ In the example provided, the admin will proceed to remove the user named Ella.
 
 ![image](../images/admin-view-5-error-messge-from-firebase-authentication-repeated-account.png)
 
+## THANK YOU FOR YOUR TIME!
+
 
 
 
